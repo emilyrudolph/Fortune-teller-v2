@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fortune teller v.2</title>
+    </head>
+    <body>
+        <h1><code>Let me tell you your fortune</code></h1>
+        <div class="qs">
+        <form>
+        <h2 class="first" >What is your bestie's name?</h2>
+        <input var="name" id="q1" placeholder="enter name here" required>
+        <h2 class="second">What is your Lucky number?</h2>
+        <input var="num"  id="q2" placeholder="enter number here"required>
+        <h2 class="third" >What is your SSN?</h2>
+        <input id="q3" var="ssn" placeholder="enter SSN here"required>
+        <h2 class="fourth">What your mother's maiden name?</h2>
+        <input id="q4" class="mum" required placeholder="enter maiden name here"><br>
+        <br></form>
+            
+            <button id="submit" onclick="myfunction()">Submit Here</button>
+        
+        </div>
+        <div class="fortune">
+            <h1>here's your fortune, enjoy!</h1>
+            <h2><span id="num">In years</span>
+            <span id="name">would have left you for </span>
+                <span id="num2"> other friends </span>
+                
+                 This is because you got hacked </h2>
+            <button class="reset">reset</button>
+        </div>
+    </body>
+</html>
